@@ -1,0 +1,50 @@
+<!-- IN HTML we are going to implement about the name of our game
+  ALSO we are going to implment the connection with mouse as well.-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>creating new page!</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <h1>Light and sound Memory Game!</h1>
+    
+    <p>
+    Welcome to the memorize game.
+
+    </p>
+    <button id="startBtn" onclick="startGame()">start</button>
+    
+    <button id="stopBtn" class="hidden" onclick="stopGame()">End</button>
+
+    
+<div id="gamesbuttonarea">
+  <br>
+  <br>
+     <button id="Button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()">Click one</button>
+  
+     <button id="Button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()">Click two</button>
+  
+     <button id="Button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()">Click three</button>
+    
+     <button id="Button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()">Click four</button>
+  
+     <button id="Button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()">Click five</button>
+     
+    </div>
+     
+    
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js" defer></script>
+  </body>
+</html>

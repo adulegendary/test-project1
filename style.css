@@ -1,0 +1,108 @@
+/* 
+* In this CSS file we are going to see about the giving color to out buttons.
+* We are going to see about the changing color when the user click on each buttons.
+* We are going to creat the buttons as whatever shape and size we want too.
+
+*   LET'S DO IT 
+
+*/
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+background-color: silver; 
+  color: black;
+}
+
+h1 {
+  font-style: helvetica, arial, sans-serif;
+  color: red;
+    font-size:160%;
+   letter-spacing: 1px;
+}
+p{
+  width: 600px;
+margin: 2%; 
+  font-family: helvetica, arial, sans-serif;
+  font-style: italic;
+  font-weight: 100;
+  font-variant-ligatures: normal;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  
+}
+button{
+   font-family: helvetica, arial, sans-serif;
+ background-color: blue;
+  padding:2%;
+  border-radius: 5%;
+  color:white;
+  margin: 0%; 
+  
+}
+
+#gamesbuttonarea>button{
+    font-family: helvetica, arial, sans-serif;
+/*  background-color: gray; */
+ padding:10%;
+    border-radius: 10%;
+
+  margin: 2%; 
+  
+}
+
+
+.hidden{
+  display:none;
+}
+
+  #Button1{
+    color:blue;
+    background: lightgreen;
+}
+
+#Button1:active, #Button1.lit{
+  background:green;
+}
+
+#Button2{
+  color:red;
+    background: lightblue;
+}
+
+#Button2:active, #Button2.lit{
+  background:blue;
+}
+
+  #Button3{
+    color:green;
+    background: pink;
+}
+
+#Button3:active, #Button3.lit{
+  background:red;
+}
+
+  #Button4{
+    color: black;
+    background: lightyellow;
+
+}
+
+#Button4:active, #Button4.lit{
+  background: yellow;
+}
+
+  #Button5{
+    color: black;
+    background: orange;
+
+}
+
+#Button5:active, #Button5.lit{
+  background: black;
+}
+
+
+
+
